@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+       <div class="logo">Jyoti Rautela</div>
+         <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+         </div>
+    </nav>
+    <nav id="hamburger-nav">
+     <div class="logo">Jyoti Rautela</div> 
+     <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>   
+        </div>
+     </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Assests/about-pic.jpeg" alt="Jyoti Rautela profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Namaste, I'm</p>
+            <h1 class="title">Jyoti Rautela</h1>
+            <p class="section__text__p2">Industrial Designer</p>
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2"
+                 onclick="location.href='https://drive.google.com/file/d/1FPD2Wc6Wo6wFD52NERHMd6NGBqrVexaH/view?usp=sharing'">
+                    Download CV
+                </button>
+                <button 
+                class="btn btn-color-1"
+                 onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                src="./Assests/LinkedIn.png" 
+                alt="My LinkedIn profile" 
+                class="icon" 
+                onclick="location.href='https://www.LinkedIn.com/in/jyoti-rautela-b25a87118/'">
+                <img 
+                src="./Assests/github.png" 
+                alt="My Github profile" 
+                class="icon" 
+                onclick="location.href='https://github.com/Jraw0312'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Assests/about-pic.jpeg" 
+                alt="Profile picture" 
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./Assests/experience.png" 
+                        alt="experience Icon" 
+                        class="icon">
+                        <h3>experience</h3>
+                        <p>3+ years <br />Industrial/Product Designer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Assests/education.png" 
+                        alt="Education Icon" 
+                        class="icon">
+                        <h3>Education</h3>
+                        <p>B.Des | Fashion & Lifestyle Accessory Design | National Institute of Fashion Technology, Bhubaneswar, India<br />M.Des | Industrial Design | Indian Institute of Technology, Roorkee, India</p>  
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto qui nihil optio! Omnis autem aliquid quae perspiciatis vitae dicta vel illo, sunt amet molestiae quibusdam, quod dolorum laboriosam eligendi quidem aut minima laudantium maxime? Nihil voluptate rem, repellat pariatur alias similique accusamus corrupti quam reprehenderit. Obcaecati mollitia illo consequuntur fugiat.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./Assests/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Softwares</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assests/checkmark.png" 
+                            alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Photoshop</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assests/checkmark.png" 
+                            alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Illustrator</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assests/checkmark.png" 
+                            alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Blender</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assests/checkmark.png" 
+                            alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assests/checkmark.png" 
+                            alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>3ds Max</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assests/checkmark.png" 
+                            alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Adobe Xd</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assests/checkmark.png" 
+                            alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Communication</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assests/checkmark.png" 
+                            alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Material Manipulation</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assests/checkmark.png" 
+                            alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Research & Concept development</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assests/checkmark.png" 
+                            alt="Experience Icon" class="icon"/>
+                            <div>
+                                <h3>Trend Forecasting</h3>
+                                <p>Intermediate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./Assests/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./Assests/11.PNG"
+                      alt="Project 1"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">ConnectEd</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://www.behance.net/gallery/212893437/ConectEd-A-collaborative-space-IIT-Roorkee'"
+                    >
+                      Behance
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://www.behance.net/gallery/212893437/ConectEd-A-collaborative-space-IIT-Roorkee'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./Assests/Project image 2.PNG"
+                      alt="Project 2"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Collaborative Space</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://www.behance.net/gallery/212887667/ConnectEd-A-Collaborative-space'"
+                    >
+                      Behance
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://www.behance.net/gallery/212887667/ConnectEd-A-Collaborative-space'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+                <div class="details-container color-container">
+                  <div class="article-container">
+                    <img
+                      src="./Assests/Project image 3.PNG"
+                      alt="Project 3"
+                      class="project-img"
+                    />
+                  </div>
+                  <h2 class="experience-sub-title project-title">Aura-Mist</h2>
+                  <div class="btn-container">
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://www.behance.net/gallery/212883117/Aura-Mist-An-autonomous-mood-regulation-system'"
+                    >
+                      Behance
+                    </button>
+                    <button
+                      class="btn btn-color-2 project-btn"
+                      onclick="location.href='https://www.behance.net/gallery/212883117/Aura-Mist-An-autonomous-mood-regulation-system'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+                </div>
+            </div>
+            </div>
+        <img
+        src="./Assests/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+        onclick="location.href='./#contact'"
+      />   
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./Assests/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:examplemail@gmail.com">jyotirautela0399@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./Assests/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/jyoti-rautela-b25a87118/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Jyoti Rautela, All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+</html>

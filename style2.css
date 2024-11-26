@@ -1,0 +1,32 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('assets/hero-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 2em;
+}
